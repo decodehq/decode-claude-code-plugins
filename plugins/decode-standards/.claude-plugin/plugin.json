@@ -1,0 +1,9 @@
+{
+  "name": "decode-standards",
+  "description": "DECODE engineering standards and conventions for Claude Code sessions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "DECODE",
+    "url": "https://github.com/decodehq"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "decode",
+  "description": "DECODE's internal Claude Code plugins: shared skills, commands, and agents used across DECODE projects.",
+  "owner": {
+    "name": "DECODE",
+    "url": "https://github.com/decodehq"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "decode-standards",
+      "source": "./plugins/decode-standards",
+      "description": "DECODE engineering standards and conventions for Claude Code sessions.",
+      "version": "0.1.0",
+      "author": {
+        "name": "DECODE",
+        "url": "https://github.com/decodehq"
+      },
+      "category": "workflow",
+      "keywords": ["decode", "standards", "conventions"]
+    }
+  ]
+}
